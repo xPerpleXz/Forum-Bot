@@ -1,0 +1,33 @@
+{
+  "name": "discord-forum-bot-railway",
+  "version": "2.0.0",
+  "description": "Production-ready Discord Bot für automatische Forum-Posts bei Spielerbeschwerden - Railway optimiert",
+  "main": "bot.js",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "node bot.js",
+    "test": "node bot.js"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "forum",
+    "roleplay",
+    "railway",
+    "grand-rp"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/discord-forum-bot.git"
+  }
+}
